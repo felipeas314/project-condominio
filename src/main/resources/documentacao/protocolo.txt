@@ -1,0 +1,44 @@
+Requisitos funcionais do raspberry (Felipe,João e Tarciso)
+- Cadastrar os modulos arduino(IP,Portão)
+- Cadastrar o id do condominio(Cadastrado na aplicação central)
+- Receber do arduino o codigo do rfid e o portão
+- Enviar para a centrar o codigo do rfid, portão,condominio e hora para a central
+- Abrir portão da central o portão
+
+Requisitos não funcionais do raspberry
+- Receber do raspberry o status e o portão quando fizer uma requisição para abrir um determinado portão
+
+
+Requisitos funcionais da central (Felipe,João e Tarciso)
+Requisitos não funcionais da central
+
+
+Requisitos funcionais do arduino (Junior)
+
+
+
+Requisitos não funcionais do arduino
+- No momento de abrir o modulo enviar via get ou post um json para o raspberry da seguinte maneira:
+	{
+		"codigo":"123412",
+		"portao":"10"
+		"btn":"saida","entrada","panico"
+	}
+- Receber uma requisição do raspberry para abrir o portão
+	{
+		"portao":"123123"
+	}
+
+
+OBS: todas a respostas serão
+{
+	"status":1
+}
+{
+	"status":0
+}
+
+
+Idéis futuras
+- Abrir o portão a partir de uma URA
+- Abrir o portão a partir de um aplicativo mobile
