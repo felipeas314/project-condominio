@@ -1,36 +1,36 @@
-Requisitos funcionais do raspberry (Felipe,Jo„o e Tarciso)
-- Cadastrar os modulos arduino(IP,Port„o)
-- Cadastrar o id do condominio(Cadastrado na aplicaÁ„o central)
-- Receber do arduino o codigo do rfid e o port„o
-- Enviar para a centrar o codigo do rfid, port„o,condominio e hora para a central
-- Abrir port„o da central o port„o
+Requisitos funcionais do raspberry (Felipe,Jo√£o e Tarciso)
+- Cadastrar os modulos arduino(IP,Port√£o)
+- Cadastrar o id do condominio(Cadastrado na aplica√ß√£o central)
+- Receber do arduino o codigo do rfid e o port√£o
+- Enviar para a centrar o codigo do rfid, port√£o,condominio e hora para a central
+- Abrir port√£o da central o port√£o
 
-Requisitos n„o funcionais do raspberry
-- Receber do raspberry o status e o port„o quando fizer uma requisiÁ„o para abrir um determinado port„o
+Requisitos n√£o funcionais do raspberry
+- Receber do arduino o status e o port√£o quando fizer uma requisi√ß√£o para abrir um determinado port√£o
 
 
-Requisitos funcionais da central (Felipe,Jo„o e Tarciso)
-Requisitos n„o funcionais da central
+Requisitos funcionais da central (Felipe,Jo√£o e Tarciso)
+Requisitos n√£o funcionais da central
 
 
 Requisitos funcionais do arduino (Junior)
 
 
 
-Requisitos n„o funcionais do arduino
+Requisitos n√£o funcionais do arduino
 - No momento de abrir o modulo enviar via get ou post um json para o raspberry da seguinte maneira:
 	{
 		"codigo":"123412",
 		"portao":"10"
 		"btn":"saida","entrada","panico"
 	}
-- Receber uma requisiÁ„o do raspberry para abrir o port„o
+- Receber uma requisi√ß√£o do raspberry para abrir o port√£o
 	{
 		"portao":"123123"
 	}
 
 
-OBS: todas a respostas ser„o
+OBS: todas a respostas ser√£o
 {
 	"status":1
 }
@@ -39,6 +39,6 @@ OBS: todas a respostas ser„o
 }
 
 
-IdÈis futuras
-- Abrir o port„o a partir de uma URA
-- Abrir o port„o a partir de um aplicativo mobile
+Id√©is futuras
+- Abrir o port√£o a partir de uma URA
+- Abrir o port√£o a partir de um aplicativo mobile
